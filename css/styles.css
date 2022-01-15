@@ -125,6 +125,21 @@ body {
     color: #fb8200;
   }
 
+  .see-more {
+    margin: 2rem;
+    position: relative;
+    left: 85%;
+  }
+
+  .see-more a {
+    text-decoration: none;
+    color: #e02c6d;
+    font-size: 1rem;
+  }
+  .see-more-arrow {
+    color: #e02c6d;
+  }
+
   .testimonials {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -159,7 +174,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
   }
 
   .footer-contents {
@@ -270,8 +284,6 @@ body {
     /* height: 1047px; */
     height: 4600px;
     margin-top: 10rem;
-
-    /* background-color: cadetblue; */
   }
 
   .pc-headline {
@@ -313,6 +325,15 @@ body {
   }
   .fa-star {
     color: #fb8200;
+  }
+
+  .see-more a {
+    text-decoration: none;
+    color: #e02c6d;
+    font-size: 1rem;
+  }
+  .see-more-arrow {
+    color: #e02c6d;
   }
 
   .testimonials {
